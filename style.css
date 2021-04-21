@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background:linear-gradient(rgb(21,44,68),
+rgb(44,103,142));
+height: 100vh;
+}
+/*definimos estilo de tablero*/
+.con-tablero{
+    width: 560px;
+    height: 560px;
+    margin: 40px auto;
+    box-shadow: 0px 0px 6px 8px rgb(5,98,141),
+                0px 0px 0px 16px rgb(6,55,83);
+
+    box-sizing: content-box;
+    cursor: pointer;
+}             
+
+.con-tablero .tab-fila{
+    display: flex;
+}
+/*definimos estilo para cada cuadrito*/
+
+.con-tablero .tab-fila .tab-col{
+    background-color: white;
+    width: 70px ;
+    height: 70px;
+    text-align: center;
+    user-select: none;
+    font-size: 55px;
+    color: rgb(9,31,46);
+    text-shadow: 0px .5px rgb(4,50,82);
+}
+
+.con-tablero .tab-fila .black{
+    background-color:  rgb(107, 146, 155);
+
+}
