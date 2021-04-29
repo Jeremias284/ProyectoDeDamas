@@ -64,7 +64,6 @@ background-color: rgb(189, 99, 99) ;
     color: rgb(95, 92, 92);
     background-color: rgb(255, 255, 255) ;
     padding: 10px ;
-    
     border: 1px solid black;
     
 }
@@ -84,3 +83,47 @@ background-color: rgb(189, 99, 99) ;
     height: 65px;
     font: bold 14px verdana;
 }
+
+.p1 {
+font-family: Arial;
+font-size: 20px;
+}
+.p2 {
+font-family: Arial;
+font-size: 20px;
+}
+.p3 {
+font-family: Arial;
+font-size: 20px;
+}
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
